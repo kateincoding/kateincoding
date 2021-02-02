@@ -1,13 +1,6 @@
 ### Hi there 👋 I'm katherine Soto and today i want to share my path like a Softwaare Engineer
 
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juansedev&layout=compact&theme=vue&langs_count=6" alt="My github stats"/>
-</p>
-
-<!--
-**kateincoding/kateincoding** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+Brief:
 
 - 🔭 I’m currently working on preparing for interviews
 - 🌱 I’m currently learning more about algorithms, c & react projects
@@ -17,7 +10,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: kateincoding
 - ⚡ Fun fact: I love soacial media
 - 📫 How to reach me: ...
--->
+
 <p align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juansedev&layout=compact&theme=vue&langs_count=6" alt="My github stats"/>
 </p>
