@@ -3,7 +3,7 @@
 Brief:
 
 - 🔭 I’m currently working on preparing for interviews
-- 🌱 I’m currently learning more about algorithms, c & react projects
+- 🌱 I’m currently learning more about algorithms, c & front-end web projects
 - 👯 I’m looking to collaborate on C & web development projects
 - 🤔 I’m looking for help with C, web development & others. Also i have a blog in medium talking about that
 - 💬 Ask me about how to start your career to be a developer
