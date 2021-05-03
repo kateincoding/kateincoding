@@ -8,7 +8,7 @@ Brief:
 - 🤔 I’m looking for help with C, web development & others. Also i have a blog in medium talking about that
 - 💬 Ask me about how to start your career to be a developer
 - 😄 Pronouns: kateincoding
-- ⚡ Fun fact: I love soacial media
+- ⚡ Fun fact: I love social media and actually I was a content creator in plantbased & enviromentalist facts
 - 📫 How to reach me: ...
 
 <p align="center">
