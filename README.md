@@ -5,11 +5,11 @@ Brief:
 - 🔭 I’m currently working on preparing for interviews and doing a Full Stack Development bootcamp
 - 🌱 I’m currently learning more about algorithms, c, i love backend <3 
 - 👯 I’m looking to collaborate on C & web development projects
-- 🤔 I’m looking for help with C, web development & others. Also i have a blog in medium talking about that
+- 🤔 I’m looking for help with C, web development & others. Also i have a blog in medium talking about that (You can click on the medium's buttom)
 - 💬 Ask me about how to start your career to be a developer
 - 😄 Pronouns: kateincoding
 - ⚡ Fun fact: I love social media and actually I was a content creator in plantbased & enviromentalist facts
-- 📫 How to reach me: ...
+- 📫 How to reach me: @kateincoding in twitter or kateincoding@gmail.com
 
 <p align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kateincoding&layout=compact&theme=vue&langs_count=6" alt="My github stats"/>
