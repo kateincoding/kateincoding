@@ -2,13 +2,13 @@
 
 Brief:
 
-- 🔭 I’m currently working on preparing for interviews and doing a Full Stack Development bootcamp
-- 🌱 I’m currently learning more about algorithms, c, i love backend <3 
+- 🔭 I’m currently doing a Full Stack Development bootcamp to improve my coding skills and because I love coding <3
+- 🌱 I’m currently learning more about algorithms, c, i love backend because I just like to think and see my solution in code <3 
 - 👯 I’m looking to collaborate on C & web development projects
 - 🤔 I’m looking for help with C, web development & others. Also i have a blog in medium talking about that (You can click on the medium's buttom)
 - 💬 Ask me about how to start your career to be a developer
 - 😄 Pronouns: kateincoding
-- ⚡ Fun fact: I love social media and actually I was a content creator in plantbased & enviromentalist facts
+- ⚡ Fun fact: I love social media and actually I was a content creator in plantbased & enviromentalist facts. Now, I am only in a relationship with coding <3
 - 📫 How to reach me: @kateincoding in twitter or kateincoding@gmail.com
 
 <p align="center">
