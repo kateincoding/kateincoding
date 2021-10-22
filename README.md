@@ -1,4 +1,4 @@
-### Hi there 👋 I'm katherine Soto and today i want to share my path like a Software Engineer
+### Hi there 👋 I'm katherine Soto and today I want to share my path like a Software Engineer
 
 Brief:
 
