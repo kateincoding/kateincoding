@@ -2,9 +2,8 @@
 
 Brief:
 
-- 🔭 I’m currently a student in L'ecole42, Paris & Full Stack Development bootcamper in Holberton
-- 🌱 I’m currently learning with energy & passion about back-end, algorithms, low-level programming & cybersecurity <3
-- 🤔 I’m looking experience in backend & cybersecurity projects
+- 🔭 I’m currently seeking opportunities in BackEnd or DevOps. I have a certification in FullStack Development of Holberton School
+- 🌱 I’m specializated in  back-end, algorithms, low-level programming & cybersecurity <3
 - 💬 Ask me about how to start your career to be a developer & women in technology topics
 - 😄 Pronouns: kateincoding
 - ⚡ Fun fact: I love social media and actually I was a content creator in plantbased & enviromentalist facts. Now, I am only in a relationship with coding and I have a blog in medium about it <3
