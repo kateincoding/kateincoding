@@ -2,14 +2,17 @@
 
 Brief:
 
-- 🔭 I’m currently seeking opportunities in BackEnd or DevOps. I have a certification in FullStack Development of Holberton School
-- 🌱 I’m specializated in  back-end, algorithms, low-level programming & cybersecurity <3
-- 💬 Ask me about how to start your career to be a developer & women in technology topics
+- 🔭 I’m currently seeking opportunities in BackEnd or FullStack development.
+- ⚡ I just graduated of HolbertonSchool like the 1st place of C15 with the certification in FullStack Development
+- ⚡ I studied for 1 year low-level & algorythms in 42SiliconValley, California, USA
+- 🌱 I’m specializated in  back-end, low-level programming & cybersecurity <3
+- 💬 Ask me about how to start your career to be a developer in technology topics
 - 😄 Pronouns: kateincoding
-- ⚡ Fun fact: I love social media and actually I was a content creator in plantbased & enviromentalist facts. Now, I am only in a relationship with coding and I have a blog in medium about it <3
-- 📫 How to reach me: @kateincoding in twitter or kateincoding@gmail.com
-- Background: corporate sales & project management like an Industrial Engineer
-- Languages that I worked in the past: C, Python, Javascript, PHP, SQL, React & Goland
+- 📫 How to reach me: @kateincoding in twitter or in my linkedin!
+- Background: 4 years of project management like an Industrial Engineer
+- Languages that I worked in the past: C, Python, Javascript, NodeJS, PHP, SQL & Goland
+- Backend Frameworks: Javascript -> [Nodejs, express, nest], Python -> [flask, django]
+- Frontend Frameworks: React
 
 <p align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kateincoding&layout=compact&theme=vue&langs_count=6" alt="My github stats"/>
