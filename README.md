@@ -2,6 +2,7 @@
 
 Brief:
 
+- ⚡ I'm team leader of a startup
 - 🔭 I’m currently seeking opportunities in FullStack development.
 - ⚡ Gratuated of HolbertonSchool like the 1st place of C15 with the certification in FullStack Development (march2022)
 - ⚡ I studied for 2 year low-level & algorythms in 42SiliconValley, California, USA
