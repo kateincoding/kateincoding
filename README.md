@@ -2,17 +2,17 @@
 
 Brief:
 
-- 🔭 I’m currently seeking opportunities in BackEnd or FullStack development.
-- ⚡ I just graduated of HolbertonSchool like the 1st place of C15 with the certification in FullStack Development
-- ⚡ I studied for 1 year low-level & algorythms in 42SiliconValley, California, USA
+- 🔭 I’m currently seeking opportunities in FullStack development.
+- ⚡ Gratuated of HolbertonSchool like the 1st place of C15 with the certification in FullStack Development (march2022)
+- ⚡ I studied for 2 year low-level & algorythms in 42SiliconValley, California, USA
 - 🌱 I’m specializated in  back-end, low-level programming & cybersecurity <3
 - 💬 Ask me about how to start your career to be a developer in technology topics
 - 😄 Pronouns: kateincoding
 - 📫 How to reach me: @kateincoding in twitter or in my linkedin!
-- Background: 4 years of project management like an Industrial Engineer
 - Languages that I worked in the past: C, Python, Javascript, NodeJS, PHP, SQL & Goland
 - Backend Frameworks: Javascript -> [Nodejs, express, nest], Python -> [flask, django]
-- Frontend Frameworks: React
+- Frontend Frameworks: React, Vuejs
+- Devops: AWS
 
 <p align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kateincoding&layout=compact&theme=vue&langs_count=6" alt="My github stats"/>
