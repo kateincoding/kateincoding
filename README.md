@@ -3,9 +3,9 @@
 Brief:
 
 - ⚡ I'm team leader of a startup
-- 🔭 I’m currently seeking opportunities in FullStack development.
+- 🔭 I’m currently working with nodejs, vuejs, aws and now I am interested to learn more about AWS
 - ⚡ Gratuated of HolbertonSchool like the 1st place of C15 with the certification in FullStack Development (march2022)
-- ⚡ I studied for 2 year low-level & algorythms in 42SiliconValley, California, USA
+- ⚡ I studied for 2 year low-level & algorythms in 42SiliconValley, California, USA & L'ecole 42, Paris
 - 🌱 I’m specializated in  back-end, low-level programming & cybersecurity <3
 - 💬 Ask me about how to start your career to be a developer in technology topics
 - 😄 Pronouns: kateincoding
