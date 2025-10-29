@@ -3,17 +3,16 @@
 Brief:
 
 - ⚡ I'm team leader of a startup
-- 🔭 I’m currently working with nodejs, vuejs, aws and now I am interested to learn more about AWS
-- ⚡ Gratuated of HolbertonSchool like the 1st place of C15 with the certification in FullStack Development (march2022)
-- ⚡ I studied for 2 year low-level & algorythms in 42SiliconValley, California, USA & L'ecole 42, Paris
-- 🌱 I’m specializated in  back-end, low-level programming & cybersecurity <3
+- 🔭 I’m currently working with nodejs, vuejs, aws and now I am interested to learn more about data science
+- ⚡ I studied for 2 year low-level & algorythms and then got a certification in FullStack Development
+- 🌱 I’m specializated in  back-end, low-level programming , web development and aws <3
 - 💬 Ask me about how to start your career to be a developer in technology topics
 - 😄 Pronouns: kateincoding
 - 📫 How to reach me: @kateincoding in twitter or in my linkedin!
-- Languages that I worked in the past: C, Python, Javascript, NodeJS, PHP, SQL & Goland
+- Languages that I worked in the past: C, Python, Javascript, NodeJS, PHP, SQL
 - Backend Frameworks: Javascript -> [Nodejs, express, nest], Python -> [flask, django]
 - Frontend Frameworks: React, Vuejs
-- Devops: AWS
+- Cloud: AWS <3
 
 <p align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kateincoding&layout=compact&theme=vue&langs_count=6" alt="My github stats"/>
