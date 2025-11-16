@@ -9,7 +9,7 @@ Brief:
 - 💬 Ask me about how to start your career to be a developer in technology topics
 - 😄 Pronouns: kateincoding
 - 📫 How to reach me: @kateincoding in twitter or in my linkedin!
-- Languages that I worked in the past: C, Python, Javascript, NodeJS, PHP, SQL
+- Languages that I worked in the past: C, Python, Javascript, NodeJS, SQL
 - Backend Frameworks: Javascript -> [Nodejs, express, nest], Python -> [flask, django]
 - Frontend Frameworks: React, Vuejs
 - Cloud: AWS <3
