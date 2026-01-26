@@ -1,14 +1,14 @@
-### Hi there 👋 I'm katherine Soto and today I want to share my path like a Software Engineer
+### Hi there 👋 I'm katherine Soto and today I want to share my background like a Data Science, Software Engineer and AWS 
 
 Brief:
 
-- ⚡ I'm team leader of a startup
+- ⚡ Currently, I'm team leader of a startup and already, started my path to data science solving problems and pursuing a master degree in this field.
 - 🔭 I’m currently working with nodejs, vuejs, aws and now I am interested to learn more about data science
 - ⚡ I studied for 2 year low-level & algorythms and then got a certification in FullStack Development
 - 🌱 I’m specializated in  back-end, low-level programming , web development and aws <3
 - 💬 Ask me about how to start your career to be a developer in technology topics
 - 😄 Pronouns: kateincoding
-- 📫 How to reach me: @kateincoding in twitter or in my linkedin!
+- 📫 How to reach me: @kateincoding in twitter or in my medium!
 - Languages that I worked in the past: C, Python, Javascript, NodeJS, SQL
 - Backend Frameworks: Javascript -> [Nodejs, express, nest], Python -> [flask, django]
 - Frontend Frameworks: React, Vuejs
