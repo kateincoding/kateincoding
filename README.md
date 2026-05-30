@@ -1,5 +1,5 @@
 ### Hi there 👋 I'm Katherine Soto — Machine Learning Engineer & AI Safety Researcher
-Coming from 5 years of experience being a Tech Leader & Software engineering
+Coming from 4 years of experience being a Tech Leader & Software engineering
 
 🌐 **Portfolio:** [kateincoding.github.io/kateincoding](https://kateincoding.github.io/kateincoding/)
 
@@ -8,6 +8,7 @@ Brief:
 - 🔬 Currently researching **AI safety** — building red-teaming agents and using mechanistic interpretability to detect multi-turn jailbreak attacks on LLMs.
 - 🎓 Pursuing an MSc in Data Science (La Salle — Universitat Ramon Llull), with a thesis on interpretability in multi-turn jailbreak attacks.
 - 🤖 Working as a **Machine Learning Engineer** — production ML systems, data pipelines, and full-stack development.
+- 🚗 Nov 2024 – Jan 2025: built an image classification model to detect vehicle parts and damage, plus a recommendation agent, for [Hera](https://www.hera.app/).
 - 🌱 Interested in interpretability, LLM evaluation, red-teaming, and trustworthy ML.
 - 💬 Ask me about starting a career in tech or moving from engineering into AI safety research.
 - 📫 How to reach me: @kateincoding on twitter or on my medium!
