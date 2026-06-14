@@ -233,6 +233,18 @@
             mask:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 85%);
   }
   @media(prefers-reduced-motion:reduce){#neural-bg{display:none}}
+
+  /* ---- SPOTLIGHT GLOW (cursor-tracking) ---- */
+  .spot{position:relative}
+  .spot::before{
+    content:'';position:absolute;inset:0;border-radius:inherit;
+    background:radial-gradient(220px circle at var(--mx,-100px) var(--my,-100px),
+      rgba(74,222,128,.14), transparent 60%);
+    opacity:0;transition:opacity .3s;pointer-events:none;z-index:0;
+  }
+  .spot:hover::before{opacity:1}
+  /* keep card content above the glow layer */
+  .card>*,.stage>*,.cred>*{position:relative;z-index:1}
 </style>
 </head>
 <body>
@@ -566,6 +578,19 @@
       else { raf=requestAnimationFrame(frame); }
     });
     resize(); frame();
+  })();
+
+  /* ---- Spotlight glow tracking ---- */
+  (function(){
+    if(window.matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+    document.querySelectorAll('.card,.stage,.cred').forEach(el=>{
+      el.classList.add('spot');
+      el.addEventListener('pointermove', e=>{
+        const r=el.getBoundingClientRect();
+        el.style.setProperty('--mx',(e.clientX-r.left)+'px');
+        el.style.setProperty('--my',(e.clientY-r.top)+'px');
+      });
+    });
   })();
 </script>
 </body>
