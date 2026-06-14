@@ -212,9 +212,32 @@
   /* reveal */
   .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
   .reveal.in{opacity:1;transform:none}
+
+  /* ---- AI BACKGROUND ---- */
+  #neural-bg{
+    position:fixed;inset:0;z-index:-2;
+    width:100%;height:100%;
+    background:
+      radial-gradient(900px 600px at 78% -5%, rgba(56,189,248,.10), transparent 60%),
+      radial-gradient(800px 600px at 12% 8%, rgba(74,222,128,.09), transparent 55%),
+      var(--bg);
+  }
+  /* subtle grid + vignette over the canvas */
+  body::before{
+    content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:
+      linear-gradient(rgba(30,42,58,.18) 1px,transparent 1px) 0 0/52px 52px,
+      linear-gradient(90deg,rgba(30,42,58,.18) 1px,transparent 1px) 0 0/52px 52px,
+      radial-gradient(120% 80% at 50% 0%, transparent 55%, rgba(10,14,20,.55) 100%);
+    -webkit-mask:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 85%);
+            mask:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 85%);
+  }
+  @media(prefers-reduced-motion:reduce){#neural-bg{display:none}}
 </style>
 </head>
 <body>
+
+<canvas id="neural-bg"></canvas>
 
 <nav>
   <div class="nav-inner">
@@ -477,6 +500,73 @@
     el.style.transitionDelay=(i%4*60)+'ms';
     obs.observe(el);
   });
+
+  /* ---- Neural-network background ---- */
+  (function(){
+    const reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    if(reduce) return;
+    const cv = document.getElementById('neural-bg');
+    const ctx = cv.getContext('2d');
+    let W, H, dpr, nodes = [], raf;
+    const mouse = {x:-9999,y:-9999};
+    const LINK = 140;          // px distance to draw a link
+    const COLORS = ['74,222,128','56,189,248']; // green, blue
+
+    function resize(){
+      dpr = Math.min(window.devicePixelRatio||1, 2);
+      W = window.innerWidth; H = window.innerHeight;
+      cv.width = W*dpr; cv.height = H*dpr;
+      ctx.setTransform(dpr,0,0,dpr,0,0);
+      const target = Math.round((W*H)/16000);          // density scales w/ area
+      const count = Math.max(34, Math.min(target, 120));
+      nodes = Array.from({length:count}, ()=>({
+        x:Math.random()*W, y:Math.random()*H,
+        vx:(Math.random()-.5)*.35, vy:(Math.random()-.5)*.35,
+        r:Math.random()*1.6+1,
+        c:COLORS[Math.random()<.62?0:1]
+      }));
+    }
+
+    function frame(){
+      ctx.clearRect(0,0,W,H);
+      for(const n of nodes){
+        n.x+=n.vx; n.y+=n.vy;
+        if(n.x<0||n.x>W) n.vx*=-1;
+        if(n.y<0||n.y>H) n.vy*=-1;
+        // gentle pull toward cursor
+        const mdx=mouse.x-n.x, mdy=mouse.y-n.y, md=Math.hypot(mdx,mdy);
+        if(md<180){ n.x+=mdx/md*0.4; n.y+=mdy/md*0.4; }
+      }
+      // links
+      for(let i=0;i<nodes.length;i++){
+        for(let j=i+1;j<nodes.length;j++){
+          const a=nodes[i], b=nodes[j];
+          const dx=a.x-b.x, dy=a.y-b.y, d=Math.hypot(dx,dy);
+          if(d<LINK){
+            const o=(1-d/LINK)*.5;
+            ctx.strokeStyle='rgba('+a.c+','+o.toFixed(3)+')';
+            ctx.lineWidth=.6;
+            ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke();
+          }
+        }
+      }
+      // nodes
+      for(const n of nodes){
+        ctx.fillStyle='rgba('+n.c+',.85)';
+        ctx.beginPath(); ctx.arc(n.x,n.y,n.r,0,Math.PI*2); ctx.fill();
+      }
+      raf=requestAnimationFrame(frame);
+    }
+
+    window.addEventListener('resize', resize, {passive:true});
+    window.addEventListener('mousemove', e=>{mouse.x=e.clientX; mouse.y=e.clientY;}, {passive:true});
+    window.addEventListener('mouseout', ()=>{mouse.x=-9999; mouse.y=-9999;});
+    document.addEventListener('visibilitychange', ()=>{
+      if(document.hidden){ cancelAnimationFrame(raf); }
+      else { raf=requestAnimationFrame(frame); }
+    });
+    resize(); frame();
+  })();
 </script>
 </body>
 </html>
